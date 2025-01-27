@@ -26,7 +26,7 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 compartment_id = "ocid1.compartment.oc1..zzz"
 
 # The Oracle Cloud ID (OCID) for the Document Generator function. <<<
-fn_ocid = "ocid1.fnfunc.oc1.iad.zzz"
+fn_ocid = "ocid1.fnfunc.oc1.iad..zzz"
 
 fontfile_name = "part3/Monoton.zip"
 template_name = "part3/TextAnomalyTemplate.docx"
