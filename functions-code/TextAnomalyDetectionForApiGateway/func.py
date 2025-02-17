@@ -123,7 +123,7 @@ def handler(ctx, data: io.BytesIO = None):
 
     Args:
         ctx: The context object provided by OCI Functions, containing metadata and configurations.
-        data (str): The JSON string payload containing details about the OCI event and the image to process.
+        data (str): The JSON string payload containing details about the image to process.
     """
     logging.info("Inside Python Text Anomaly Detection function (for API Gateway)")
 
