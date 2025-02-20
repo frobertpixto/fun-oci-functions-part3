@@ -134,7 +134,7 @@ def handler(ctx, data: io.BytesIO = None):
 
     try:
         #
-        # 1. Parse the event data to extract necessary details for processing.
+        # 1. Parse the payload to extract necessary details for processing.
         #
         payload = json.loads(data.getvalue())
         logging.info(f"Received payload: {json.dumps(payload)}")
